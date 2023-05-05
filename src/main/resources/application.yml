@@ -1,0 +1,20 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: http://127.0.0.1:9200 # Elasticsearch 地址
+#  jpa:
+#    showSql:
+#      properties:
+#        hibernate:
+#          format_sql: true # 打印sql语句
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: debug
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: trace
+# 打印elasticsearch语句
+
